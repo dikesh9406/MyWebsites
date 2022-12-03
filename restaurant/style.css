@@ -1,0 +1,947 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    
+}
+
+.div1 {
+
+    padding: 0 15px;
+    height: 74px;
+    z-index: 300;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    margin-top: 0;
+    margin-bottom: 10%;
+    display: flex;
+    margin: 1rem 0;
+ 
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    /* background: #fff; */
+    font-weight: 400;
+    border: 1px solid rgba(34, 36, 38, .15);
+    box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+    border-radius: 0.28571429rem;
+    min-height: 2.85714286em;
+    margin-top: 0;
+    
+
+
+}
+@media(max-width:800px)
+{
+  .div1{
+    width: 100vw;
+  
+  }
+}
+
+
+
+
+img {
+    user-select: text;
+    line-height: 3;
+    height: 50px;
+    align-self: center;
+    vertical-align: middle;
+    margin-top: 8px;
+
+}
+
+a {
+    user-select: text;
+    line-height: 1.8;
+
+    text-decoration: none;
+    font-size: large;
+    /* height: 100vh; */
+    /* margin: auto; */
+    align-items: center;
+    align-content: center;
+}
+
+img:hover {
+    height: 51px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+
+}
+
+
+.mid {
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.link {
+    padding: 20px 15px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: AvenirNext, "Helvetica Neue", Arial, sans-serif;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #000;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: red;
+}
+
+.active {
+    color: red;
+    position: relative;
+    font-weight: 700;
+    border-top: 4px solid red;
+    padding: 16px 15px;
+
+}
+
+.bell {
+    position: relative;
+    cursor: pointer;
+    height: 2px;
+
+}
+
+.bell img {
+    position: relative;
+    cursor: pointer;
+    line-height: 26px;
+    height: 35px;
+    margin-right: 26px;
+    margin-top: 14px;
+}
+
+.bell img:hover {
+    height: 36px;
+}
+
+.right-link {
+
+    padding: 20px 0px;
+    padding-right: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: AvenirNext, "Helvetica Neue", Arial, sans-serif;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #000;
+    cursor: pointer;
+
+}
+
+.right-link a {
+    color: #000;
+}
+
+.right-link a:hover {
+    color: red;
+}
+
+
+
+
+.div2 {
+    height: 3000px;
+    width: 98vw;
+    margin: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .mid {
+        flex-direction: column;
+        display: none;
+
+    }
+
+    .bell{
+        display: none;
+
+    }
+    #bell1{
+        display: block;
+        position: absolute;
+        right: 70px;
+    }
+
+    .right-link {
+        display: none;
+
+    }
+
+
+
+}
+
+.brand {
+    text-decoration: solid;
+    text-shadow: 3px rgb(179, 25, 25);
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    vertical-align: bottom;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 30px;
+    color: black;
+}
+
+#mylinks {
+    background-color: red;
+    position: absolute;
+    z-index: 300;
+    
+    background-color: #fff;
+    position: fixed;
+
+    display: flex;
+
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    /* background: #fff; */
+    font-weight: 400;
+    border: 1px solid rgba(34, 36, 38, .15);
+    box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+    border-radius: 0.28571429rem;
+    min-height: 2.85714286em;
+
+
+    top: 73px;
+    z-index: 4;
+    right: 0;
+
+    width: px;
+    animation: 1ms ease-in;
+
+    display: none;
+  
+
+
+    transform: translatex(0);
+    transition: transform .5s ease, opacity ease .2s;
+
+}
+
+.topnav a {
+    display: block;
+}
+
+.topnav img {
+    display: none;
+    position: absolute;
+    right: 40px;
+    top: 4px;
+    height: 45px;
+}
+
+
+
+@media (max-width:800px) {
+    .topnav img {
+        display: block;
+    }
+    .div2{
+        height: 6500px;
+        width: 100vw;
+       
+        
+        
+    }
+
+}
+
+.div21{
+    height: 800px;
+    width: 98vw;
+    justify-content: center;
+    background-image: url(https://i.pinimg.com/736x/e6/7d/af/e67daf68a6e8f6d4a9283cb7d64b098c.jpg);
+    align-items: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    /* background-color: green; */
+}
+@media(max-width:800px)
+{
+    .div21{
+        display: flex;
+        flex-direction: column;
+        height: 1200px;
+        width: 100vw;
+    }
+    
+}
+
+.left1{
+    height: 500px;
+    background-color: none;
+    /* background-color: #fff; */
+    /* background-color: red; */
+    width: 40vw;
+    margin-left: 20px;
+    margin-top: 113px;
+    
+    display: flex;
+    box-shadow: 0 2px 2px 2px rgb(34 36 38 / 15%);
+    border-radius: 0.28571429rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+   
+
+    
+    
+}
+.forleft{
+    height: 480px;
+    width: 38vw;
+    background-image: url(https://media.istockphoto.com/photos/modern-restaurant-interior-design-picture-id1211547141?k=20&m=1211547141&s=612x612&w=0&h=KiZX3NBZVCK4MlSh4BJ8hZNSJcTIMbNSSV2yusw2NmM=);
+    background-size: 38vw 480px;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: center;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+   backdrop-filter: brightness(60%);
+    text-align: center;
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 3vw;
+    text-shadow: 2px 3px rgb(52, 50, 50);
+    filter: brightness(60%);
+    border-radius: 5px;
+    text-align: center;
+}
+.forleft:hover{
+   height: 500px;
+   width: 40vw;
+   background-size: 40vw 500px;
+    
+    filter: brightness(100%);
+    
+}
+@media(max-width:800px)
+{
+
+    .forleft{
+        height: 480px;
+        width: 90vw;
+        background-size: 90vw 480px;
+        text-align: center;
+        margin-right: 24px;
+    }
+    .forleft h1{
+        position: absolute;
+        top: 28%;
+        font-size: 10vw;
+    }
+    .left1{
+        height: 480px;
+        width: 90vw;
+        transform: translateY(0px);
+       
+
+    }
+    .forleft:hover{
+        height: 500px;
+        width: 90vw;
+        background-size: 90vw 500px;
+         
+         filter: brightness(100%);
+         
+     }
+    
+    
+}
+.right1{
+    height: 500px;
+    background-color: none;
+    /* background-color: #fff; */
+    /* background-color: red; */
+    width: 40vw;
+    margin-left: 20px;
+    margin-top: 113px;
+    
+    display: flex;
+    box-shadow: 0 2px 2px 2px rgb(34 36 38 / 15%);
+    border-radius: 0.28571429rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+   
+
+    
+    
+}
+
+.forright{
+    height: 480px;
+    width: 38vw;
+    background-image: url(https://media.istockphoto.com/photos/modern-restaurant-interior-design-picture-id1211547141?k=20&m=1211547141&s=612x612&w=0&h=KiZX3NBZVCK4MlSh4BJ8hZNSJcTIMbNSSV2yusw2NmM=);
+    background-size: 38vw 480px;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: center;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+   backdrop-filter: brightness(60%);
+    text-align: center;
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 3vw;
+    text-shadow: 2px 3px rgb(52, 50, 50);
+    filter: brightness(60%);
+    border-radius: 5px;
+    text-align: center;
+
+
+   
+   
+    
+
+    
+}
+.forright:hover{
+    height: 500px;
+    width: 40vw;
+    background-size: 40vw 500px;
+     
+     filter: brightness(100%);
+     
+ }
+ @media(max-width:800px)
+{
+
+    .forright{
+        height: 480px;
+        width: 90vw;
+        background-size: 90vw 480px;
+        margin-right: 24px;
+
+    }
+    .forright h1{
+        font-size: 10vw;
+        position: absolute;
+        top: 30%;
+    }
+    .right1{
+        height: 480px;
+        width: 90vw;
+        transform: translateY(-60px);
+       
+
+    }
+    .forright:hover{
+        height: 500px;
+        width: 90vw;
+        background-size: 90vw 500px;
+         
+         filter: brightness(100%);
+         
+     }
+    
+    
+}
+.right1 h1{
+    /* margin-bottom: -203px; */
+}
+.right1 a button{
+    width: 15vw;
+    height: 15vh;
+    font-size: 2.5vw;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 2000px;
+    border: none;
+    margin-top: 70px;
+    transition-duration: .3s;
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    bottom: 2%;
+    left: 30%;
+    
+    
+    
+
+}
+.right1 a button:hover{
+    width: 17vw;
+    height: 20vh;
+    color: black;
+    box-shadow: 0 2px 2px 2px rgb(34 36 38 / 15%);
+    cursor: pointer;
+}
+@media (max-width:800px){
+    .right1 a button{
+        width: 35vw;
+        height: 10vh;
+        font-size: 5vw;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 2000px;
+        border: none;
+        margin-top: 5px;
+        transition-duration: .3s;
+        background-color: red;
+        color: #fff;
+        margin-top: 400px;
+        
+        
+    
+    }
+    .right1 a button:hover{
+        width: 37vw;
+        height: 12vh;
+        color: black;
+        box-shadow: 0 2px 2px 2px rgb(34 36 38 / 15%);
+        cursor: pointer;
+       
+    }
+}
+.right1 a{
+    /* margin-bottom: -90px; */
+}
+.right1:hover{
+  
+    background-size: 52.5vw 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+
+}
+
+.div22{
+    /* background-color: red; */
+    height: 50vh;
+    width: 96vw;
+    margin: auto;
+    position: relative;
+    top: 10vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cards{
+    height: 50vh;
+    width: 16vw;
+    background-color:#fff;
+    margin: auto;
+    
+
+}
+@media(max-width: 800px)
+{
+    .cards{
+        height: 55vh;
+    width: 95vw;
+    margin-bottom: 10vh;
+
+    background-color:#fff;
+
+    }
+    .div22{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 15vw;
+    height: 45vh;
+    text-align: center;
+    margin: auto;
+    box-shadow: 0 2px 2px 2px rgb(34 36 38 / 15%);
+    border-radius: 0.28571429rem; 
+    
+    
+    background-color: rgb(245, 240, 240);
+    
+    
+  }
+  .card:hover{
+    width: 16vw;
+    height: 46vh;
+    box-shadow: 0 2px 2px 2px rgb(34 36 38 / 15%);
+    border-radius: 0.28571429rem; 
+  }
+@media(max-width:800px){
+
+    .card{
+        
+        width: 300px;
+        box-shadow: none;
+        
+    
+
+    }
+    .card:hover{
+       width: 360px;
+       box-shadow: none;
+       
+      }
+}
+
+
+  .card img{
+  
+    height: 26vh;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  
+  
+  /* Add some padding inside the card container */
+  .container {
+    background-color: #fff;
+    padding: 2px 16px;
+  }
+  .price{
+    display: flex;
+    flex-direction: row;
+  }
+  .price h3{
+    background-color: red;
+    border-radius: 10px;
+   
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    padding: 2px 2px;
+    color: white;
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    /* position: absolute; */
+    
+  }
+  .add button{
+    width: 5vw;
+    height: 7vh;
+    font-size: 25px;
+    border-radius: 2000px;
+    border: none;
+    margin-top: 5px;
+    transition-duration: .3s;
+    background-color: rgb(115, 213, 115);
+    color: #fff;
+    margin-right: 0%;
+    
+
+  }
+  .add button{
+    width: 5vw;
+    height: 7vh;
+    font-size: 25px;
+    border-radius: 2000px;
+    border: none;
+    margin-top: 5px;
+    transition-duration: .3s;
+    background-color: rgb(115, 213, 115);
+    color: #fff;
+    margin-right: 0%;
+    
+
+  }
+  .add button:hover{
+   
+    width: 7vw;
+    height: 9vh;
+    color: black;
+    box-shadow: 0 2px 2px 2px rgb(34 36 38 / 15%);
+    cursor: pointer;
+
+  }
+  .add button:hover{
+   
+    width: 7vw;
+    height: 9vh;
+    color: black;
+    box-shadow: 0 2px 2px 2px rgb(34 36 38 / 15%);
+    cursor: pointer;
+
+  }
+  @media(max-width:800px)
+  {
+   .add button{
+    width: 100px;
+    height: 9vh;
+   }
+   .add button:hover{
+   
+    width: 110px;
+    height: 11vh;
+    color: black;
+    box-shadow: 0 2px 2px 2px rgb(34 36 38 / 15%);
+    
+
+  }
+  .add button{
+    width: 100px;
+    height: 9vh;
+   }
+   .add button:hover{
+   
+    width: 110px;
+    height: 11vh;
+    color: black;
+    box-shadow: 0 2px 2px 2px rgb(34 36 38 / 15%);
+    
+
+  }
+  }
+  .la{
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    
+    background-color: rgb(241, 240, 240);
+    height: 9vh;
+   width: 100%;
+   
+  transform: translateY(+10vh);
+  opacity: 0.5;
+ 
+
+
+  }
+  @media(max-width:800px)
+  {
+    .la{
+        margin-top: -50px;
+        width: 100vw;
+    }
+  }
+  .la h3{
+    margin-left: 3vw;
+    padding-top: 2vh;
+    color: rgb(35, 34, 34);
+    
+  }
+  .div23
+  {
+    transform: translateY(+70px);
+    /* background-color: red; */
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* opacity: 0.2; */
+  }
+  @media(max-width:800px)
+  {
+    .div23{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  .div23left{
+    width: 49%;
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    /* background-color: rgb(241, 240, 240); */
+    height: 650px;
+    margin-left: 10px;
+    
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    /* height: 50px; */
+   
+  }
+  .div23leftup{
+    width: 100%;
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    /* background-color: rgb(241, 240, 240) */
+    border: 1px solid hsl(0, 1%, 84%);
+    height: 41px;
+    opacity: 0.5;
+  }
+  .div23leftdown{
+    width: 100%;
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    /* background-color: rgb(241, 240, 240); */
+    border: 0.5px solid hsl(0, 1%, 84%);
+    margin-top: 10px;
+    height: 574px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    /* opacity: 0.5; */
+
+  }
+  @media(max-width:800px)
+  {
+    .div23left{
+        /* background-color: green; */
+        height: 900px;
+        width: 100vw;
+        transform: translateY(1950px);
+        /* margin: auto; */
+        margin-left: 0px;
+        display: block;
+    }
+    .div23leftdown{
+      height: 850px;
+    }
+
+  }
+  .div23right{
+    /* background-color: green; */
+    /* height: 50px; */
+    width: 49%;
+    position: absolute;
+    right: 10px;
+    width: 49%;
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    /* background-color: rgb(241, 240, 240); */
+    height: 500px;
+    
+    
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+
+
+  }
+  @media(max-width:800px)
+  {
+    .div23right{
+        /* background-color: red; */
+        width: 100vw;
+        transform: translateY(+2878px);
+        display: block;
+
+    }
+  }
+  .div23rightup{
+    width: 100%;
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    /* background-color: rgb(241, 240, 240) */
+    border: 1px solid hsl(0, 1%, 84%);
+    height: 100px;
+    opacity: 0.5;
+  }
+ 
+  .div23rightdown{
+    width: 95%;
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    /* background-color: rgb(241, 240, 240); */
+    border: 2px solid hsl(0, 1%, 84%);
+    margin-top: 10px;
+    height: 567px;
+    /* opacity: 0.8; */
+    padding: 20px;
+    transform: translateY(0px);
+    border-radius: 5px;
+    background-color: #f2f2f2;
+
+  }
+  @media(max-width:800px)
+  {
+    .div23rightup{
+      width: 102vw;
+      margin-left: 0px;
+      margin-top: 20px;
+      
+    }
+    .div23rightdown
+    {
+      width: 91vw;
+      margin-left: 0px;
+    }
+  }
+  .div23left h3{
+    margin-left: 3vw;
+    padding-top: 2vh;
+    padding-bottom: 10px;
+   
+    color: rgb(35, 34, 34);
+  }
+  .div23right h3{
+    margin-left: 3vw;
+    padding-top: 2vh;
+    padding-bottom: 5px;
+    color: rgb(35, 34, 34);
+  }
+  .star{
+    display: flex;
+    flex-direction: row;
+    
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+  .star2{
+    background-color: green;
+    color: white;
+    border-radius: 3px;
+
+  }
+  .star2 img{
+    height: 10px;
+    margin: auto;
+  }
+  .star h4{
+    margin-left: 10px;
+  }
+  .text p{
+    margin-bottom: 20;
+    margin: 10px 25px;
+
+  }
+  input[type=text], select, textarea {
+    width: 95%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container1 input{
+    display: block;
+
+   
+  }
+  
